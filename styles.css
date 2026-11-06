@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+  background-color: #f4f4f4;
+}
+.ancho {
+  width: 1200px;
+  margin: auto;
+}
+.centrar {
+  text-align: center;
+}
+.titulo {
+  color: #2e2e79;
+  text-transform: uppercase;
+  padding: 40px 0 10px 0;
+  line-height: 1.2;
+  font-size: 24px;
+}
+.letras_rojas {
+  color: #800000;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.contenedor-semestres {
+  margin-bottom: 30px;
+}
+.columna {
+  display: inline-block;
+  width: 48%;
+  vertical-align: top;
+}
+.columna-izquierda {
+  margin-right: 2%;
+}
+details {
+  background-color: #fff;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+details[open] {
+  border: 2px solid #2e2e79;
+}
+summary {
+  padding: 15px 20px;
+  font-weight: bold;
+}
+.lista-materias {
+  background-color: #cccccc;
+  margin: 10px 20px 20px 20px;
+  padding: 20px 20px 20px 40px;
+  border-radius: 8px;
+}
+.lista-materias li {
+  margin-bottom: 5px;
+}
+.contenedor-boton {
+  margin-bottom: 60px;
+}
+.btn_descarga {
+  display: inline-block;
+  color: #fff;
+  background-color: #cc9900;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-weight: bold;
+}
